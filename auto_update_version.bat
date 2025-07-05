@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 REM Proje klasörüne git
-cd /d C:\Users\canku\COLREKODULLUYEDEK
+cd /d C:COLORCEMBER3
 
 REM Main branch'e geç (detached HEAD durumunu düzeltir)
 git checkout main
