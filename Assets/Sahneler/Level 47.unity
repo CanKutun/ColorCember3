@@ -482,6 +482,95 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hedef: {fileID: 2063463502}
+--- !u!1001 &719050878
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 40160025622031306, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_Color.b
+      value: 0.60784316
+      objectReference: {fileID: 0}
+    - target: {fileID: 40160025622031306, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_Color.g
+      value: 0.60784316
+      objectReference: {fileID: 0}
+    - target: {fileID: 40160025622031306, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_Color.r
+      value: 0.7529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118353275631055322, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2063463502}
+    - target: {fileID: 2118353275631055322, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: backgroundCount
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 3073349017641425527, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3073349017641425527, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3073349017641425527, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3073349017641425527, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3073349017641425527, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3073349017641425527, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3073349017641425527, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3073349017641425527, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3073349017641425527, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3073349017641425527, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755791378599192122, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_Color.b
+      value: 0.60784316
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755791378599192122, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_Color.g
+      value: 0.60784316
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755791378599192122, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_Color.r
+      value: 0.7529412
+      objectReference: {fileID: 0}
+    - target: {fileID: 4276924521022600623, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_Name
+      value: ArkaPlan
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
 --- !u!1 &1458935875
 GameObject:
   m_ObjectHideFlags: 0
@@ -531,12 +620,10 @@ MonoBehaviour:
   - {fileID: 1761868444131388219, guid: 7eb8d62c23746df4c8f3d2edab4c1396, type: 3}
   - {fileID: 8436798933893412787, guid: fd55284fd55bd1c488d9cc90ae1d7307, type: 3}
   - {fileID: 904893658138777358, guid: aa6272653e5df6042b5e7058f3596839, type: 3}
-  - {fileID: 2922754507902524596, guid: 019c81c307aa18247935538aa2225b79, type: 3}
-  - {fileID: 6263977387192449889, guid: 25e9c40efd7564847b2ccc5004d64782, type: 3}
   renkDegistirici: {fileID: 4856200399027286069, guid: d56d75d89f87318468cd01ecbc3cb211, type: 3}
   yildiz: {fileID: 350280404775884609, guid: f9b20cfb371bd2a488d7569a09e41383, type: 3}
   bayrak: {fileID: 717945845217798933, guid: 2b5f0e3efdca0e14981568091bdc6dd7, type: 3}
-  objeSayisi: 23
+  objeSayisi: 19
   objeMesafesi: 7
 --- !u!4 &1458935877
 Transform:
@@ -735,7 +822,7 @@ SpriteRenderer:
   m_Size: {x: 12.8, y: 19.2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2004011250
@@ -933,3 +1020,4 @@ SceneRoots:
   - {fileID: 1458935877}
   - {fileID: 1501566339}
   - {fileID: 181013610}
+  - {fileID: 719050878}

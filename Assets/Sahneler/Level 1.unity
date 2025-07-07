@@ -783,10 +783,6 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3984129077952000470, guid: 34d078a6c1ac4b547a39c6f52c565e5a, type: 3}
-      propertyPath: au3
-      value: 
-      objectReference: {fileID: 8300000, guid: 85c7152d28f98124da04492f8a53a667, type: 3}
-    - target: {fileID: 3984129077952000470, guid: 34d078a6c1ac4b547a39c6f52c565e5a, type: 3}
       propertyPath: skorYazisi
       value: 
       objectReference: {fileID: 1268092248}
@@ -811,10 +807,62 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 40160025622031306, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 40160025622031306, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_Color.b
+      value: 0.60875756
+      objectReference: {fileID: 0}
+    - target: {fileID: 40160025622031306, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_Color.g
+      value: 0.60875756
+      objectReference: {fileID: 0}
+    - target: {fileID: 40160025622031306, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_Color.r
+      value: 0.754717
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118353275631055322, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2143633458}
+    - target: {fileID: 2118353275631055322, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: startIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118353275631055322, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: backgroundCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2118353275631055322, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: levelBackgrounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2152296964662718515, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 2143633458}
+    - target: {fileID: 2152296964662718515, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: backgroundCount
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755791378599192122, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755791378599192122, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_Color.b
+      value: 0.60784316
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755791378599192122, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_Color.g
+      value: 0.60784316
+      objectReference: {fileID: 0}
+    - target: {fileID: 3755791378599192122, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
+      propertyPath: m_Color.r
+      value: 0.7529412
+      objectReference: {fileID: 0}
     - target: {fileID: 6392485831051649474, guid: 46b1f3e5e93070940be5191b85c9d45a, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

@@ -14,10 +14,10 @@ public class AdsManager : Singleton<AdsManager>
     private string _adRewardedId = "unused";
 #elif UNITY_ANDROID
     private string _adUnitId = "unused";
-    private string _adInterstitialId = "ca-app-pub-3601362388931534/2644911410";
-    private string _adRewardedId = "ca-app-pub-3601362388931534/2193139799";
+    private string _adInterstitialId = "ca-app-pub-3940256099942544/1033173712";
+    private string _adRewardedId = "ca-app-pub-3940256099942544/5224354917";
 #elif UNITY_IPHONE
-    private string _adUnitId = "ca-app-pub-3601362388931534/7388335155";
+    private string _adUnitId = "ca-app-pub-3940256099942544/1712485313";
 #endif
 
     BannerView _bannerView;

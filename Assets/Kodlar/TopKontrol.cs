@@ -38,7 +38,7 @@ public class TopKontrol : MonoBehaviour
 
     private int lastSentHighScore = 0;
     private float timeSinceLastSend = 0f;
-    private float sendInterval = 10f; // 10 saniye
+    private float sendInterval = 10f;
 
     void Start()
     {
@@ -46,7 +46,9 @@ public class TopKontrol : MonoBehaviour
 
         top = GetComponent<Rigidbody2D>();
         topsr = GetComponent<SpriteRenderer>();
-        RastgeleRenk();
+
+        RastgeleRenkEngelden();
+
         TopuDurumu(true);
         PrepareGame();
 
@@ -77,7 +79,6 @@ public class TopKontrol : MonoBehaviour
             top.velocity = Vector2.up * ziplamaGucu;
         }
 
-        // Skoru 10 saniyede bir kontrol edip PlayFab'a gönder
         timeSinceLastSend += Time.deltaTime;
         if (timeSinceLastSend >= sendInterval)
         {
@@ -87,7 +88,6 @@ public class TopKontrol : MonoBehaviour
             {
                 lastSentHighScore = skor;
 
-                // Yerel yüksek skoru da güncelle
                 yuksekSkor = skor;
                 PlayerPrefs.SetInt("yuksekSkor", yuksekSkor);
                 yuksekSkorYazisi.text = yuksekSkor.ToString();
@@ -101,13 +101,11 @@ public class TopKontrol : MonoBehaviour
         }
     }
 
-
-
     private void OnTriggerEnter2D(Collider2D temas)
     {
         if (temas.CompareTag("RenkDegistirici"))
         {
-            RastgeleRenk();
+            RastgeleRenkEngelden();
             AudioSource.PlayClipAtPoint(au, transform.position);
             Destroy(temas.gameObject);
             return;
@@ -125,7 +123,6 @@ public class TopKontrol : MonoBehaviour
                 PlayerPrefs.SetInt("yuksekSkor", yuksekSkor);
                 yuksekSkorYazisi.text = yuksekSkor.ToString();
 
-                // İşte buraya ekle
                 if (PlayFabScoreManager.Instance != null)
                 {
                     PlayFabScoreManager.Instance.SendHighScore(yuksekSkor);
@@ -158,8 +155,6 @@ public class TopKontrol : MonoBehaviour
             TopuDurumu(false);
             isStopped = true;
 
-            Debug.Log("Kenar ile çarpışıldı ve renk yanlış.");
-
             var adsM = AdsManager.Instance;
 
             if (adsM.IsRewardedAdReady() && (!rewardedAdUsedThisSession || SurekliOdulluReklamIzle))
@@ -168,22 +163,15 @@ public class TopKontrol : MonoBehaviour
                 adsM.rewardEvent.RemoveAllListeners();
                 adsM.rewardEvent.AddListener(() =>
                 {
-                    Debug.Log("Ödül alındı, dokunulmazlık başlatılacak (dokunma bekleniyor).");
                     rewardedAdUsedThisSession = true;
-
                     AdsFailPanel.Instance.HidePanel();
-
-                    // Dokunma bekleniyor
                     waitingForFirstTapAfterAd = true;
                 });
             }
             else if (adsM.IsInterstitialAdReady())
             {
                 adsM.interstitialAdClosedEvent.RemoveAllListeners();
-                adsM.interstitialAdClosedEvent.AddListener(() =>
-                {
-                    SceneManager.LoadScene(0);
-                });
+                adsM.interstitialAdClosedEvent.AddListener(() => SceneManager.LoadScene(0));
                 adsM.ShowInterstitialAd();
             }
             else
@@ -209,7 +197,13 @@ public class TopKontrol : MonoBehaviour
                 adsM.rewardEvent.AddListener(() =>
                 {
                     rewardedAdUsedThisSession = true;
-
+                    BackgroundManager bgManager = FindObjectOfType<BackgroundManager>();
+                    if (bgManager != null)
+                    {
+                        PlayerPrefs.SetInt("BackgroundStartIndex", bgManager.StartIndex);
+                        PlayerPrefs.SetInt("BackgroundCount", bgManager.BackgroundCount);
+                        PlayerPrefs.SetInt("PreviousEndIndex", bgManager.endIndex);
+                    }
                     PlayerPrefs.SetInt("SavedLevel", sonrakiBolum);
                     PlayerPrefs.SetInt("acilanLevel", sonrakiBolum);
                     PlayerPrefs.Save();
@@ -227,22 +221,7 @@ public class TopKontrol : MonoBehaviour
             else if (adsM.IsInterstitialAdReady())
             {
                 adsM.interstitialAdClosedEvent.RemoveAllListeners();
-                adsM.interstitialAdClosedEvent.AddListener(() =>
-                {
-                    rewardedAdUsedThisSession = true;
-
-                    PlayerPrefs.SetInt("SavedLevel", sonrakiBolum);
-                    PlayerPrefs.SetInt("acilanLevel", sonrakiBolum);
-                    PlayerPrefs.Save();
-
-                    if (AdsFailPanel.Instance != null)
-                        AdsFailPanel.Instance.HidePanel();
-
-                    if (sonrakiBolum < SceneManager.sceneCountInBuildSettings)
-                        SceneManager.LoadScene(sonrakiBolum);
-                    else
-                        SceneManager.LoadScene("MainMenu");
-                });
+                adsM.interstitialAdClosedEvent.AddListener(() => SceneManager.LoadScene(sonrakiBolum));
                 adsM.ShowInterstitialAd();
             }
             else
@@ -260,7 +239,6 @@ public class TopKontrol : MonoBehaviour
             StopCoroutine(flashingCoroutine);
 
         flashingCoroutine = StartCoroutine(FlashEffect());
-
         yield return new WaitForSeconds(invincibilityDuration);
 
         if (flashingCoroutine != null)
@@ -282,13 +260,6 @@ public class TopKontrol : MonoBehaviour
         }
     }
 
-    private void RastgeleRenk()
-    {
-        int rastgele = Random.Range(0, renkler.Length);
-        topsr.color = renkler[rastgele];
-        originalTopColor = topsr.color;
-    }
-
     private void TopuDurumu(bool enablePhysics)
     {
         top.isKinematic = !enablePhysics;
@@ -297,5 +268,46 @@ public class TopKontrol : MonoBehaviour
             top.velocity = Vector2.zero;
             top.angularVelocity = 0f;
         }
+    }
+
+    private void RastgeleRenkEngelden()
+    {
+        Color secilen = SecilecekRenk();
+        topsr.color = secilen;
+        originalTopColor = secilen;
+    }
+
+    private Color SecilecekRenk()
+    {
+        Engel sonrakiEngel = BulSonrakiEngel();
+
+        if (sonrakiEngel != null)
+        {
+            List<Color> engelRenkleri = sonrakiEngel.GetRenkler();
+            if (engelRenkleri.Count > 0)
+            {
+                return engelRenkleri[Random.Range(0, engelRenkleri.Count)];
+            }
+        }
+
+        return renkler[Random.Range(0, renkler.Length)];
+    }
+
+    private Engel BulSonrakiEngel()
+    {
+        Engel[] engeller = FindObjectsOfType<Engel>();
+        Engel sonraki = null;
+        float minMesafe = float.MaxValue;
+
+        foreach (Engel engel in engeller)
+        {
+            float mesafe = engel.transform.position.y - transform.position.y;
+            if (mesafe > 0 && mesafe < minMesafe)
+            {
+                minMesafe = mesafe;
+                sonraki = engel;
+            }
+        }
+        return sonraki;
     }
 }

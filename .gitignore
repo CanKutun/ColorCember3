@@ -1,51 +1,88 @@
-# Unity geçici ve derleme klasörleri
+# =============== #
+# Unity .gitignore
+# =============== #
+
+# Unity klasörleri
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-[Mm]emoryCaptures/
+[Uu]serSettings/
+MemoryCaptures/
+MemoryCaptures.meta
 BuildCache/
-BurstDebugInformation/
+BuildCache.meta
+ExportedObj/
+Assets/AssetStoreTools*
 
-# Visual Studio ve diğer IDE dosyaları
-.vs/
+# Burst derleyici ve derleme önbelleği
+BurstDebugInformation/
+*.perf.json
+*.run.json
+
+# Rider IDE dosyaları
+.idea/
+*.sln.iml
+
+# VS Code
 .vscode/
+
+# Visual Studio
 *.csproj
+*.unityproj
 *.sln
+*.suo
+*.tmp
 *.user
 *.userprefs
 *.pidb
 *.booproj
 *.svd
 *.pdb
-*.mdb
 
-# Unity Cache Server dosyaları
-/Library/Cache/
-
-# Crash loglar
-crash.log
-sysinfo.txt
-
-# MonoDevelop dosyaları
-*.pidb
+# MonoDevelop
 *.userprefs
+
+# Otomatik dosyalar / scriptler
+*.bat
+
+# Build çıktıları
+*.apk
+*.aab
+*.apk.meta
+*.aab.meta
+
+# Keystore (gizli tutulmalı)
+*.keystore
 
 # OS dosyaları
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# Android dosyaları
-*.apk
-*.aab
-*.keystore
-kullanıcı.anahtar deposu
+# Logs
+*.log
+*.log.meta
 
-# Paketler
-*.unitypackage
+# Plastic SCM (Unity Collaborate)
+.plastic/
+*.plastic*
 
-# Otomasyon ve versiyon scriptleri
-*.bat
-auto_update_version.bat
+# Crash/diagnostic
+*.dmp
+*.crash
+
+# Unity Cache Server
+UnityCache/
+
+# Rider
+.idea/
+
+# JetBrains
+*.sln.iml
+
+# Diğer
+.DS_Store

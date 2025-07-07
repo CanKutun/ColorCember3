@@ -1,0 +1,134 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\COLORCEMBER3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88DFC2FD-F3F3-C4BB-18E0-EF778F77C3CB}|Assembly-CSharp.csproj|c:\\colorcember3\\assets\\scripts\\engel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DFC2FD-F3F3-C4BB-18E0-EF778F77C3CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\engel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DFC2FD-F3F3-C4BB-18E0-EF778F77C3CB}|Assembly-CSharp.csproj|c:\\colorcember3\\assets\\kodlar\\topkontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DFC2FD-F3F3-C4BB-18E0-EF778F77C3CB}|Assembly-CSharp.csproj|solutionrelative:assets\\kodlar\\topkontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DFC2FD-F3F3-C4BB-18E0-EF778F77C3CB}|Assembly-CSharp.csproj|C:\\COLORCEMBER3\\assets\\scripts\\backgroundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DFC2FD-F3F3-C4BB-18E0-EF778F77C3CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\backgroundmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DFC2FD-F3F3-C4BB-18E0-EF778F77C3CB}|Assembly-CSharp.csproj|C:\\COLORCEMBER3\\assets\\scripts\\backgroundindexmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DFC2FD-F3F3-C4BB-18E0-EF778F77C3CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\backgroundindexmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DFC2FD-F3F3-C4BB-18E0-EF778F77C3CB}|Assembly-CSharp.csproj|C:\\COLORCEMBER3\\assets\\scripts\\playfablogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DFC2FD-F3F3-C4BB-18E0-EF778F77C3CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playfablogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DFC2FD-F3F3-C4BB-18E0-EF778F77C3CB}|Assembly-CSharp.csproj|C:\\COLORCEMBER3\\assets\\scripts\\playfabscoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DFC2FD-F3F3-C4BB-18E0-EF778F77C3CB}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playfabscoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88DFC2FD-F3F3-C4BB-18E0-EF778F77C3CB}|Assembly-CSharp.csproj|C:\\COLORCEMBER3\\assets\\kodlar\\ads\\adsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88DFC2FD-F3F3-C4BB-18E0-EF778F77C3CB}|Assembly-CSharp.csproj|solutionrelative:assets\\kodlar\\ads\\adsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Engel.cs",
+              "DocumentMoniker": "C:\\COLORCEMBER3\\Assets\\Scripts\\Engel.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Engel.cs",
+              "ToolTip": "C:\\COLORCEMBER3\\Assets\\Scripts\\Engel.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Engel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T16:24:04.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TopKontrol.cs",
+              "DocumentMoniker": "C:\\COLORCEMBER3\\Assets\\Kodlar\\TopKontrol.cs",
+              "RelativeDocumentMoniker": "Assets\\Kodlar\\TopKontrol.cs",
+              "ToolTip": "C:\\COLORCEMBER3\\Assets\\Kodlar\\TopKontrol.cs",
+              "RelativeToolTip": "Assets\\Kodlar\\TopKontrol.cs",
+              "ViewState": "AgIAAPQAAAAAAAAAAAAswDkBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T23:46:28.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BackgroundIndexManager.cs",
+              "DocumentMoniker": "C:\\COLORCEMBER3\\Assets\\Scripts\\BackgroundIndexManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BackgroundIndexManager.cs",
+              "ToolTip": "C:\\COLORCEMBER3\\Assets\\Scripts\\BackgroundIndexManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BackgroundIndexManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T20:38:12.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BackgroundManager.cs",
+              "DocumentMoniker": "C:\\COLORCEMBER3\\Assets\\Scripts\\BackgroundManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BackgroundManager.cs",
+              "ToolTip": "C:\\COLORCEMBER3\\Assets\\Scripts\\BackgroundManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BackgroundManager.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwB4AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T19:26:16.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlayFabScoreManager.cs",
+              "DocumentMoniker": "C:\\COLORCEMBER3\\Assets\\Scripts\\PlayFabScoreManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayFabScoreManager.cs",
+              "ToolTip": "C:\\COLORCEMBER3\\Assets\\Scripts\\PlayFabScoreManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayFabScoreManager.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwDUAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T18:32:42.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AdsManager.cs",
+              "DocumentMoniker": "C:\\COLORCEMBER3\\Assets\\Kodlar\\Ads\\AdsManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Kodlar\\Ads\\AdsManager.cs",
+              "ToolTip": "C:\\COLORCEMBER3\\Assets\\Kodlar\\Ads\\AdsManager.cs",
+              "RelativeToolTip": "Assets\\Kodlar\\Ads\\AdsManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBMAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T17:38:50.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayFabLogin.cs",
+              "DocumentMoniker": "C:\\COLORCEMBER3\\Assets\\Scripts\\PlayFabLogin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayFabLogin.cs",
+              "ToolTip": "C:\\COLORCEMBER3\\Assets\\Scripts\\PlayFabLogin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayFabLogin.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvxwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-29T12:11:31.61Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

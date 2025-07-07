@@ -1,13 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class BackgroundManager : MonoBehaviour
 {
     [Header("Arkaplan Ayarları")]
-    public int startIndex = 1;              // Bu sahnedeki ilk görsel numarası (örn: 6)
-    public int backgroundCount = 5;         // Bu sahnede gösterilecek toplam resim sayısı
-    public string resourceFolder = "Backgrounds"; // Resources içindeki alt klasör
+    [SerializeField] private int backgroundCount = 5;
+    [SerializeField] private string resourceFolder = "Backgrounds";
+    [SerializeField] private int totalBackgroundCount = 68; // 🎯 Toplam kaç arka plan sprite'ı varsa buraya yaz
 
     [Header("Obje Referansları")]
     public Transform player;
@@ -21,10 +22,36 @@ public class BackgroundManager : MonoBehaviour
     private int currentIndex = 1;
     private bool useFirst = true;
 
+    private int startIndex;
+    public int endIndex;
+
+    public int StartIndex => startIndex;
+    public int BackgroundCount => backgroundCount;
+
     void Start()
     {
-        LoadSpritesFromResources();
+        int currentScene = SceneManager.GetActiveScene().buildIndex;
+
+        if (currentScene == 1)
+        {
+            startIndex = 1;
+        }
+        else
+        {
+            // Önceki sahnede kullanılan endIndex'ten başla
+            startIndex = PlayerPrefs.GetInt("PreviousEndIndex", 1);
+        }
+
+        endIndex = startIndex + backgroundCount - 1;
+
+        Debug.Log($"[BG] Sahne: {SceneManager.GetActiveScene().name} | startIndex: {startIndex}, endIndex: {endIndex}");
+
+        LoadSpritesFromResources(startIndex, endIndex);
         SetInitialTwoBackgrounds();
+
+        // Sonraki sahne için endIndex kaydet (başlangıç olarak kullanılacak)
+        //PlayerPrefs.SetInt("PreviousEndIndex", endIndex);
+        //PlayerPrefs.Save();
     }
 
     void Update()
@@ -39,7 +66,10 @@ public class BackgroundManager : MonoBehaviour
 
         int index = (int)(screenTopAdjusted / sectionHeight);
 
-        if (index != currentIndex && index < backgrounds.Length)
+        if (index < 0 || index >= backgrounds.Length)
+            return;
+
+        if (index != currentIndex)
         {
             currentIndex = index;
             Sprite nextSprite = backgrounds[index];
@@ -64,13 +94,14 @@ public class BackgroundManager : MonoBehaviour
         }
     }
 
-    void LoadSpritesFromResources()
+    void LoadSpritesFromResources(int start, int end)
     {
         List<Sprite> loaded = new List<Sprite>();
 
-        for (int i = startIndex; i < startIndex + backgroundCount; i++)
+        for (int i = start; i <= end; i++)
         {
-            string fileName = $"S{i.ToString("D2")}";
+            int wrappedIndex = ((i - 1) % totalBackgroundCount) + 1; // 🎯 Döngüsel sistem
+            string fileName = $"S{wrappedIndex.ToString("D2")}";
             string path = $"{resourceFolder}/{fileName}";
             Sprite sprite = Resources.Load<Sprite>(path);
 
@@ -80,7 +111,7 @@ public class BackgroundManager : MonoBehaviour
             }
             else
             {
-                Debug.LogWarning($"❗ Arka plan bulunamadı: {path}");
+                Debug.LogWarning($"Arka plan bulunamadı: {path}");
             }
         }
 

@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\canku\\COLREKODULLUYEDEK\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD529EE-8401-DAC8-C4A4-FF21B45D3910}|Assembly-CSharp.csproj|c:\\users\\canku\\colrekodulluyedek\\assets\\scripts\\leaderboardentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD529EE-8401-DAC8-C4A4-FF21B45D3910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\leaderboardentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD529EE-8401-DAC8-C4A4-FF21B45D3910}|Assembly-CSharp.csproj|C:\\Users\\canku\\COLREKODULLUYEDEK\\assets\\scripts\\versionchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD529EE-8401-DAC8-C4A4-FF21B45D3910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\versionchecker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD529EE-8401-DAC8-C4A4-FF21B45D3910}|Assembly-CSharp.csproj|C:\\Users\\canku\\COLREKODULLUYEDEK\\assets\\scripts\\leaderboardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD529EE-8401-DAC8-C4A4-FF21B45D3910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\leaderboardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD529EE-8401-DAC8-C4A4-FF21B45D3910}|Assembly-CSharp.csproj|C:\\Users\\canku\\COLREKODULLUYEDEK\\assets\\scripts\\playfablogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD529EE-8401-DAC8-C4A4-FF21B45D3910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playfablogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD529EE-8401-DAC8-C4A4-FF21B45D3910}|Assembly-CSharp.csproj|C:\\Users\\canku\\COLREKODULLUYEDEK\\assets\\scripts\\playfabscoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD529EE-8401-DAC8-C4A4-FF21B45D3910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playfabscoremanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD529EE-8401-DAC8-C4A4-FF21B45D3910}|Assembly-CSharp.csproj|C:\\Users\\canku\\COLREKODULLUYEDEK\\assets\\kodlar\\topkontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD529EE-8401-DAC8-C4A4-FF21B45D3910}|Assembly-CSharp.csproj|solutionrelative:assets\\kodlar\\topkontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD529EE-8401-DAC8-C4A4-FF21B45D3910}|Assembly-CSharp.csproj|C:\\Users\\canku\\COLREKODULLUYEDEK\\assets\\kodlar\\bolumolusturucu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD529EE-8401-DAC8-C4A4-FF21B45D3910}|Assembly-CSharp.csproj|solutionrelative:assets\\kodlar\\bolumolusturucu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD529EE-8401-DAC8-C4A4-FF21B45D3910}|Assembly-CSharp.csproj|C:\\Users\\canku\\COLREKODULLUYEDEK\\assets\\kodlar\\ads\\adsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD529EE-8401-DAC8-C4A4-FF21B45D3910}|Assembly-CSharp.csproj|solutionrelative:assets\\kodlar\\ads\\adsmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD529EE-8401-DAC8-C4A4-FF21B45D3910}|Assembly-CSharp.csproj|C:\\Users\\canku\\COLREKODULLUYEDEK\\assets\\scripts\\namemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD529EE-8401-DAC8-C4A4-FF21B45D3910}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\namemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3FD529EE-8401-DAC8-C4A4-FF21B45D3910}|Assembly-CSharp.csproj|C:\\Users\\canku\\COLREKODULLUYEDEK\\assets\\kodlar\\final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3FD529EE-8401-DAC8-C4A4-FF21B45D3910}|Assembly-CSharp.csproj|solutionrelative:assets\\kodlar\\final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LeaderboardEntry.cs",
+              "DocumentMoniker": "C:\\Users\\canku\\COLREKODULLUYEDEK\\Assets\\Scripts\\LeaderboardEntry.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LeaderboardEntry.cs",
+              "ToolTip": "C:\\Users\\canku\\COLREKODULLUYEDEK\\Assets\\Scripts\\LeaderboardEntry.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LeaderboardEntry.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwCwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T19:55:54.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayFabScoreManager.cs",
+              "DocumentMoniker": "C:\\Users\\canku\\COLREKODULLUYEDEK\\Assets\\Scripts\\PlayFabScoreManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayFabScoreManager.cs",
+              "ToolTip": "C:\\Users\\canku\\COLREKODULLUYEDEK\\Assets\\Scripts\\PlayFabScoreManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayFabScoreManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAywBkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T19:40:51.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Final.cs",
+              "DocumentMoniker": "C:\\Users\\canku\\COLREKODULLUYEDEK\\Assets\\Kodlar\\Final.cs",
+              "RelativeDocumentMoniker": "Assets\\Kodlar\\Final.cs",
+              "ToolTip": "C:\\Users\\canku\\COLREKODULLUYEDEK\\Assets\\Kodlar\\Final.cs",
+              "RelativeToolTip": "Assets\\Kodlar\\Final.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwBQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T11:26:47.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "NameManager.cs",
+              "DocumentMoniker": "C:\\Users\\canku\\COLREKODULLUYEDEK\\Assets\\Scripts\\NameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NameManager.cs",
+              "ToolTip": "C:\\Users\\canku\\COLREKODULLUYEDEK\\Assets\\Scripts\\NameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T22:38:35.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayFabLogin.cs",
+              "DocumentMoniker": "C:\\Users\\canku\\COLREKODULLUYEDEK\\Assets\\Scripts\\PlayFabLogin.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayFabLogin.cs",
+              "ToolTip": "C:\\Users\\canku\\COLREKODULLUYEDEK\\Assets\\Scripts\\PlayFabLogin.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayFabLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T23:21:22.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LeaderboardManager.cs",
+              "DocumentMoniker": "C:\\Users\\canku\\COLREKODULLUYEDEK\\Assets\\Scripts\\LeaderboardManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LeaderboardManager.cs",
+              "ToolTip": "C:\\Users\\canku\\COLREKODULLUYEDEK\\Assets\\Scripts\\LeaderboardManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LeaderboardManager.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAiwMIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T20:14:27.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VersionChecker.cs",
+              "DocumentMoniker": "C:\\Users\\canku\\COLREKODULLUYEDEK\\Assets\\Scripts\\VersionChecker.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\VersionChecker.cs",
+              "ToolTip": "C:\\Users\\canku\\COLREKODULLUYEDEK\\Assets\\Scripts\\VersionChecker.cs",
+              "RelativeToolTip": "Assets\\Scripts\\VersionChecker.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAiwDwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T20:29:18.672Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdsManager.cs",
+              "DocumentMoniker": "C:\\Users\\canku\\COLREKODULLUYEDEK\\Assets\\Kodlar\\Ads\\AdsManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Kodlar\\Ads\\AdsManager.cs",
+              "ToolTip": "C:\\Users\\canku\\COLREKODULLUYEDEK\\Assets\\Kodlar\\Ads\\AdsManager.cs",
+              "RelativeToolTip": "Assets\\Kodlar\\Ads\\AdsManager.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAAALIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T22:10:24.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BolumOlusturucu.cs",
+              "DocumentMoniker": "C:\\Users\\canku\\COLREKODULLUYEDEK\\Assets\\Kodlar\\BolumOlusturucu.cs",
+              "RelativeDocumentMoniker": "Assets\\Kodlar\\BolumOlusturucu.cs",
+              "ToolTip": "C:\\Users\\canku\\COLREKODULLUYEDEK\\Assets\\Kodlar\\BolumOlusturucu.cs",
+              "RelativeToolTip": "Assets\\Kodlar\\BolumOlusturucu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T21:18:38.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TopKontrol.cs",
+              "DocumentMoniker": "C:\\Users\\canku\\COLREKODULLUYEDEK\\Assets\\Kodlar\\TopKontrol.cs",
+              "RelativeDocumentMoniker": "Assets\\Kodlar\\TopKontrol.cs",
+              "ToolTip": "C:\\Users\\canku\\COLREKODULLUYEDEK\\Assets\\Kodlar\\TopKontrol.cs",
+              "RelativeToolTip": "Assets\\Kodlar\\TopKontrol.cs",
+              "ViewState": "AgIAAPgAAAAAAAAAAAAgwGUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T17:22:09.954Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
