@@ -6,6 +6,8 @@
 [Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
+BuildCache/
+BurstDebugInformation/
 
 # Visual Studio ve diğer IDE dosyaları
 .vs/
@@ -25,6 +27,7 @@
 
 # Crash loglar
 crash.log
+sysinfo.txt
 
 # MonoDevelop dosyaları
 *.pidb
@@ -37,6 +40,12 @@ Thumbs.db
 # Android dosyaları
 *.apk
 *.aab
+*.keystore
+kullanıcı.anahtar deposu
 
 # Paketler
 *.unitypackage
+
+# Otomasyon ve versiyon scriptleri
+*.bat
+auto_update_version.bat

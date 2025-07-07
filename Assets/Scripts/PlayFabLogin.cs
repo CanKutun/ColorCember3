@@ -26,7 +26,7 @@ public class PlayFabLogin : MonoBehaviour
     void Start()
     {
 
-        PlayFabSettings.staticSettings.TitleId = "1A8324";
+        PlayFabSettings.staticSettings.TitleId = "447B3";
 
         LoginWithCustomID();
     }

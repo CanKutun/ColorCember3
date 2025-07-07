@@ -2382,7 +2382,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 18b7ce7d744eeac4e988d67191df05fc, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b4aba80e9749ac40a25989b93609adc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4138,7 +4138,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   versionUrl: https://raw.githubusercontent.com/CanKutun/ColorCember2/main/version.txt
   updatePanel: {fileID: 1083800829}
-  updateButton: {fileID: 1443454375}
 --- !u!1001 &4390326156432426453
 PrefabInstance:
   m_ObjectHideFlags: 0

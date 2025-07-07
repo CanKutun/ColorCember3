@@ -8,7 +8,8 @@ using UnityEngine.UI;
 public class VersionChecker : MonoBehaviour
 {
     [Header("Version")]
-    public string versionUrl = "https://raw.githubusercontent.com/CanKutun/ColorCember2/main/version.txt";
+    // Colorcember3 reposundaki version.txt dosyasýna güncellendi
+    public string versionUrl = "https://raw.githubusercontent.com/CanKutun/ColorCember3/main/version.txt";
     public GameObject updatePanel;
 
     void Start()
